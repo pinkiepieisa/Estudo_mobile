@@ -12,6 +12,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTeste">
         <activity
+            android:name=".TelaSplash"
+            android:exported="false" />
+        <activity
+            android:name=".TelaMenu"
+            android:exported="true"
+            android:theme="@style/Theme.AppTeste">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:theme="@style/Theme.AppTeste" />
+        <activity
+            android:name=".Atividade8"
+            android:exported="false" />
+        <activity
+            android:name=".Atividade7"
+            android:exported="false" />
+        <activity
+            android:name=".Atividade4"
+            android:exported="false" />
+        <activity
             android:name=".Atividade3"
             android:exported="false" />
         <activity
