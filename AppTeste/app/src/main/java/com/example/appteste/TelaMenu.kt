@@ -19,6 +19,8 @@ class TelaMenu : AppCompatActivity() {
         var btnex4 = findViewById<Button>(R.id.button4)
         var btnex7 = findViewById<Button>(R.id.button5)
         var btnex8 = findViewById<Button>(R.id.button6)
+        var btnex9 = findViewById<Button>(R.id.button9)
+
 
         btnex2.setOnClickListener {
             var in2 = Intent(this, Atividade2::class.java)
@@ -43,6 +45,11 @@ class TelaMenu : AppCompatActivity() {
         btnex8.setOnClickListener {
             var in8 = Intent(this, Atividade8::class.java)
             startActivity(in8)
+        }
+
+        btnex9.setOnClickListener {
+            var in9 = Intent(this, TelaMapa::class.java)
+            startActivity(in9)
         }
     }
 }

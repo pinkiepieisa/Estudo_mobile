@@ -7,8 +7,8 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import kotlin.math.pow
+
 
 class Atividade7 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,8 +32,8 @@ class Atividade7 : AppCompatActivity() {
                 val v2 = campo2.text.toString().toDouble()
                 val v3 = campo3.text.toString().toDouble()
 
-                val total = (Math.pow(v1, 2.0)) + 2 * v2 * v3
-                val total2 = Math.pow(total, 2.0)
+                val total = v1.pow(2.0) + 2 * v2 * v3
+                val total2 = total.pow(2.0)
 
                 resultado.text = total2.toString()
 
