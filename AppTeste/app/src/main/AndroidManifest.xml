@@ -16,28 +16,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTeste">
-        <activity
-            android:name=".TelaMapa"
-            android:exported="false"
-            android:theme="@style/Theme.AppTeste"
-        />
+
         <activity
             android:name=".TelaSplash"
-            android:exported="false" />
-        <activity
-            android:name=".TelaMenu"
-            android:exported="true"
-            android:theme="@style/Theme.AppTeste">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Menu"
-            android:exported="false"
-            android:theme="@style/Theme.AppTeste" />
+            android:name=".CheckboxTrigonometria"
+            android:exported="false" />
+        <activity
+            android:name=".TelaMapa"
+            android:exported="false" />
+        <activity
+            android:name=".TelaMenu"
+            android:exported="false" />
         <activity
             android:name=".Atividade8"
             android:exported="false" />
@@ -52,22 +48,11 @@
             android:exported="false" />
         <activity
             android:name=".Atividade2"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:exported="false" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
