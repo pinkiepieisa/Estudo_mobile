@@ -1,34 +1,4 @@
 <resources>
-    <string name="app_name">AppTeste</string>
-    <string name="app_title">Estados do Brasil</string>
-    <string name="bahia">Salvador</string>
-    <string name="paraiba">João Pessoa</string>
-    <string name="alagoas">Maceió</string>
-    <string name="goias">Goiânia</string>
-    <string name="minas_gerais">Belo Horizonte</string>
-    <string name="pernambuco">Recife</string>
-    <string name="rondonia">Porto Velho</string>
-    <string name="roraima">Boa Vista</string>
-    <string name="santa_catarina">Florianópolis</string>
-    <string name="sao_paulo">São Paulo</string>
-    <string name="sergipe">Aracaju</string>
-    <string name="acre">Rio Branco</string>
-    <string name="amapa">Macapá</string>
-    <string name="amazonas">Manaus</string>
-    <string name="ceara">Fortaleza</string>
-    <string name="espirito_santo">Vitória</string>
-    <string name="maranhao">São Luís</string>
-    <string name="mato_grosso">Cuiabá</string>
-    <string name="mato_grosso_do_sul">Campo Grande</string>
-    <string name="para">Belém</string>
-    <string name="parana">Curitiba</string>
-    <string name="piaui">Teresina</string>
-    <string name="rio_de_janeiro">Rio de Janeiro</string>
-    <string name="rio_grande_do_norte">Natal</string>
-    <string name="rio_grande_do_sul">Porto Alegre</string>
-    <string name="tocantins">Palmas</string>
-    <string name="distrito_federal">Brasília</string>
-    <string name="img_desc">Bandeira da capital do estado selecionado</string>
     <string-array name="capitais">
         <item>Salvador</item>
         <item>João Pessoa</item>
@@ -58,5 +28,53 @@
         <item>Palmas</item>
         <item>Brasília</item>
     </string-array>
+
+    <string-array name="estados">
+        <item>Bahia</item>
+        <item>Paraíba</item>
+        <item>Alagoas</item>
+        <item>Goiás</item>
+        <item>Minas Gerais</item>
+        <item>Pernambuco</item>
+        <item>Rondônia</item>
+        <item>Roraima</item>
+        <item>Santa Catarina</item>
+        <item>São Paulo</item>
+        <item>Sergipe</item>
+        <item>Acre</item>
+        <item>Amapá</item>
+        <item>Amazonas</item>
+        <item>Ceará</item>
+        <item>Espírito Santo</item>
+        <item>Maranhão</item>
+        <item>Mato Grosso</item>
+        <item>Mato Grosso do Sul</item>
+        <item>Pará</item>
+        <item>Paraná</item>
+        <item>Piauí</item>
+        <item>Rio de Janeiro</item>
+        <item>Rio Grande do Norte</item>
+        <item>Rio Grande do Sul</item>
+        <item>Tocantins</item>
+        <item>Distrito Federal</item>
+    </string-array>
+
     <string name="fechar">Fechar</string>
+
+    <string name="app_title2">App das disciplinas</string>
+    <string name="internet_das_coisas">Fernanda Pereira</string>
+    <string name="experiencia_do_usuario">Eduardo Tadeu</string>
+    <string name="programacao_para_dispositivos_moveis">Mario da silva</string>
+    <string name="ingles">Leandro Ferro</string>
+    <string name="integracao_e_enterga_continua">Silvio Fernando</string>
+    <string name="laboratorio_de_desenvolvimento_web">Junio César</string>
+    <string name="estatistica_aplicada">André Benito</string>
+    <string name="img_desc2">Imagem do item selecionado</string>
+    <string name="descricao_idc">Introdução à arquitetura e conceitos de IoT, desenvolvimento com Arduino e simuladores.</string>
+    <string name="descricao_ux">Estudo da Experiência do Usuário e do Consumidor, com foco no perfil do usuário e conceitos fundamentais de UX.</string>
+    <string name="descricao_mobile">Introdução ao desenvolvimento para dispositivos móveis, abordando tipos de dispositivos, sistemas operacionais e arquitetura Android.</string>
+    <string name="descricao_ingles">Estudo do inglês com foco em bases tecnológicas, vocabulário e Simple Past.</string>
+    <string name="descricao_cicd">Conceitos de Integração e Entrega Contínuas, histórico, pré-requisitos e configuração de ambiente de produção.</string>
+    <string name="descricao_web">Introdução ao desenvolvimento web, princípios SOLID e boas práticas de desenvolvimento de sistemas.</string>
+    <string name="descricao_estatistica">Introdução à estatística com tabelas de frequência, conjuntos, diagramas de Venn e operações entre conjuntos.</string>
 </resources>

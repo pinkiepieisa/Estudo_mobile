@@ -80,26 +80,29 @@ class CheckboxTrigonometria : AppCompatActivity() {
 
         val lista = findViewById<ListView>(R.id.lista)
         val capitais = resources.getStringArray((R.array.capitais))
+        val estados = resources.getStringArray(R.array.estados)
 
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, capitais)
+        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, estados)
         lista.adapter = adapter
 
         lista.setOnItemClickListener { _, _, position, _ ->
-            mostrarDialogCapitais(capitais[position], imagens[position])
+            mostrarDialogCapitais(estados[position], capitais[position], imagens[position])
         }
     }
 
-    private fun mostrarDialogCapitais(nome: String, imgRes: Int){
+    private fun mostrarDialogCapitais(estado: String, capital: String, imgRes: Int){
         val view = LayoutInflater.from(this).inflate(R.layout.dialog_item, null)
 
         val  img = view.findViewById<ImageView>(R.id.imgEstado)
         val txtEstado = view.findViewById<TextView>(R.id.txtEstado)
 
         img.setImageResource(imgRes)
-        txtEstado.text = nome
+        txtEstado.text = "Capital: $capital"
 
-        val dialog = AlertDialog.Builder(this).setView(view)
-            .setNegativeButton((R.string.fechar), null)
+        val dialog = AlertDialog.Builder(this)
+            .setTitle(estado)
+            .setView(view)
+            .setNegativeButton(R.string.fechar, null)
             .create()
 
         dialog.show()
