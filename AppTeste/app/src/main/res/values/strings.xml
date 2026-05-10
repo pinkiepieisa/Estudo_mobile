@@ -28,7 +28,6 @@
         <item>Palmas</item>
         <item>Brasília</item>
     </string-array>
-
     <string-array name="estados">
         <item>Bahia</item>
         <item>Paraíba</item>
@@ -58,23 +57,37 @@
         <item>Tocantins</item>
         <item>Distrito Federal</item>
     </string-array>
-
     <string name="fechar">Fechar</string>
 
     <string name="app_title2">App das disciplinas</string>
-    <string name="internet_das_coisas">Fernanda Pereira</string>
-    <string name="experiencia_do_usuario">Eduardo Tadeu</string>
-    <string name="programacao_para_dispositivos_moveis">Mario da silva</string>
-    <string name="ingles">Leandro Ferro</string>
-    <string name="integracao_e_enterga_continua">Silvio Fernando</string>
-    <string name="laboratorio_de_desenvolvimento_web">Junio César</string>
-    <string name="estatistica_aplicada">André Benito</string>
+    <string-array name="disciplinas">
+        <item>Internet das Coisas</item>
+        <item>Experiência do Usuário</item>
+        <item>Programação para Dispositivos Móveis</item>
+        <item>Inglês</item>
+        <item>Integração e Entrega Contínua</item>
+        <item>Laboratório de Desenvolvimento Web</item>
+        <item>Estatística Aplicada</item>
+    </string-array>
+    <string-array name="nomes">
+        <item>Fernanda Pereira</item>
+        <item>Eduardo Tadeu</item>
+        <item>Mario da silva</item>
+        <item>Leandro Ferro</item>
+        <item>Silvio Fernando</item>
+        <item>Junio César</item>
+        <item>André Benito</item>
+    </string-array>
     <string name="img_desc2">Imagem do item selecionado</string>
-    <string name="descricao_idc">Introdução à arquitetura e conceitos de IoT, desenvolvimento com Arduino e simuladores.</string>
-    <string name="descricao_ux">Estudo da Experiência do Usuário e do Consumidor, com foco no perfil do usuário e conceitos fundamentais de UX.</string>
-    <string name="descricao_mobile">Introdução ao desenvolvimento para dispositivos móveis, abordando tipos de dispositivos, sistemas operacionais e arquitetura Android.</string>
-    <string name="descricao_ingles">Estudo do inglês com foco em bases tecnológicas, vocabulário e Simple Past.</string>
-    <string name="descricao_cicd">Conceitos de Integração e Entrega Contínuas, histórico, pré-requisitos e configuração de ambiente de produção.</string>
-    <string name="descricao_web">Introdução ao desenvolvimento web, princípios SOLID e boas práticas de desenvolvimento de sistemas.</string>
-    <string name="descricao_estatistica">Introdução à estatística com tabelas de frequência, conjuntos, diagramas de Venn e operações entre conjuntos.</string>
+    <string-array name="descricoes">
+        <item>Introdução à arquitetura e conceitos de IoT, desenvolvimento com Arduino e simuladores.</item>
+        <item>Estudo da Experiência do Usuário e do Consumidor, com foco no perfil do usuário e conceitos fundamentais de UX.</item>
+        <item>Introdução ao desenvolvimento para dispositivos móveis, abordando tipos de dispositivos, sistemas operacionais e arquitetura Android.</item>
+        <item>Estudo do inglês com foco em bases tecnológicas, vocabulário e Simple Past.</item>
+        <item>Conceitos de Integração e Entrega Contínuas, histórico, pré-requisitos e configuração de ambiente de produção.</item>
+        <item>Introdução ao desenvolvimento web, princípios SOLID e boas práticas de desenvolvimento de sistemas.</item>
+        <item>Introdução à estatística com tabelas de frequência, conjuntos, diagramas de Venn e operações entre conjuntos.</item>
+    </string-array>
+    <string name="fechar2">Fechar</string>
+
 </resources>

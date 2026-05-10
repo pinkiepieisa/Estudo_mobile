@@ -8,7 +8,7 @@
     android:padding="16dp">
 
     <ImageView
-        android:id="@+id/imgProduto2"
+        android:id="@+id/imgProfe"
         android:layout_width="match_parent"
         android:layout_height="203dp"
         android:contentDescription="@string/img_desc2"

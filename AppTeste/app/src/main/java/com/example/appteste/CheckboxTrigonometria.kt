@@ -93,7 +93,7 @@ class CheckboxTrigonometria : AppCompatActivity() {
     private fun mostrarDialogCapitais(estado: String, capital: String, imgRes: Int){
         val view = LayoutInflater.from(this).inflate(R.layout.dialog_item, null)
 
-        val  img = view.findViewById<ImageView>(R.id.imgEstado)
+        val img = view.findViewById<ImageView>(R.id.imgEstado)
         val txtEstado = view.findViewById<TextView>(R.id.txtEstado)
 
         img.setImageResource(imgRes)
