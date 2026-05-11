@@ -90,4 +90,34 @@
     </string-array>
     <string name="fechar2">Fechar</string>
 
+    <!-- Novo App -->
+
+    <string name="app_titulo3"> App de Geometria </string>
+
+    <!-- Figuras -->
+
+    <string name="circulo"> Círculo </string>
+    <string name="retangulo"> Retângulo </string>
+    <string name="triangulo"> Triângulo </string>
+
+    <!-- Valores -->
+
+    <string name="raio"> Raio </string>
+    <string name="base"> Base </string>
+    <string name="altura"> Altura </string>
+
+    <!-- Botão -->
+
+    <string name="btn_calcular"> Calcular </string>
+
+    <!-- Placeholder -->
+
+    <string name="item_placeholder"> Item aparecerá aqui </string>
+    <string name="total_placeholder"> Total aparecerá aqui </string>
+
+    <!-- Fechar -->
+
+    <string name="fechar3"> Fechar </string>
+
+
 </resources>
