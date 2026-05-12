@@ -17,6 +17,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTeste">
         <activity
+            android:name=".CombustivelSpinner"
+            android:exported="false" />
+        <activity
+            android:name=".PapelariaSpinner"
+            android:exported="false" />
+        <activity
+            android:name=".LanchoneteSpinner"
+            android:exported="false" />
+        <activity
             android:name=".TelaSpinner"
             android:exported="false" />
         <activity
