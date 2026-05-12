@@ -16,7 +16,7 @@ class TelaSplash : AppCompatActivity() {
         setContentView(R.layout.activity_tela_splash)
 
         Handler(Looper.getMainLooper()).postDelayed({
-            val intent = Intent(this, GeometriaDeAreas::class.java)
+            val intent = Intent(this, TelaSpinner::class.java)
             startActivity(intent)
             finish()
         }, 3000)

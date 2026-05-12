@@ -17,6 +17,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppTeste">
         <activity
+            android:name=".TelaSpinner"
+            android:exported="false" />
+        <activity
             android:name=".LeiDeOhm"
             android:exported="false" />
         <activity

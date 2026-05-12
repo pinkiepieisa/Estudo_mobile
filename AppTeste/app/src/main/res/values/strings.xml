@@ -119,18 +119,41 @@
 
     <string name="fechar3"> Fechar </string>
 
+    <!-- Novo App -->
+
     <string name="lei_de_ohm">Lei de Ohm</string>
+
     <string name="tensao">Tensão (V)</string>
     <string name="corrente">Corrente (I)</string>
     <string name="resistencia">Resistência (R)</string>
+
     <string name="campo_tensao">Tensão (V)</string>
     <string name="campo_corrente">Corrente (A)</string>
     <string name="campo_resistencia">Resistência (R)</string>
+
     <string name="btn_calcular_ohm">Calcular</string>
+
     <string name="resultado_tensao">Tensão: %.2f V</string>
     <string name="resultado_corrente">Corrente: %.2f A</string>
     <string name="resultado_resistencia">Resistência: %.2f Ω</string>
+
     <string name="erro_campos">Preencha todos os campos!</string>
+
+    <!-- Novo App -->
+
+    <string name="confeitaria">Confeitaria</string>
+
+    <string-array name="produtos">
+        <item>Bolo de chocolate</item>
+        <item>Bolo de cenoura</item>
+        <item>Bolo de morango</item>
+    </string-array>
+
+    <string name="quantidade">Quantidade</string>
+
+    <string name="resultado_placeholder"> Resultado aparecerá aqui! </string>
+
+    <string name="resultado"> Resultado: %1$.4f</string>
 
 
 </resources>
